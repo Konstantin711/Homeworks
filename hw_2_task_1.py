@@ -5,7 +5,10 @@
 
 eleks = ['Johny D', 'Rich Wood', 'Carla Aster', 'Oliver Good']
 toshiba = ['Marry Moore', 'Tim Cook', 'Oliver Good']
-toshiba.extend(eleks)
-take_over = toshiba
 
-print(take_over)
+toshiba.extend(eleks)
+eleks.clear()
+
+print(toshiba)
+print(eleks)
+

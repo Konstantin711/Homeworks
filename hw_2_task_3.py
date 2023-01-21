@@ -6,14 +6,8 @@
 omnivore = ['John doe', 'Frank Smith', 'Lucy Frank', 'Silvester Stalone']
 vegetarian = ['Jenny Tyler', 'Sad One', 'Frank Sinatra']
 
-all_guests = []
+all_eaters = []
+all_eaters.extend(omnivore)
+all_eaters.extend(vegetarian)
 
-while omnivore:
-    guest = omnivore.pop()
-    all_guests.append(guest)
-
-    if not omnivore:
-        for vegan in vegetarian:
-            all_guests.append(vegan)
-
-print(all_guests)
+print(all_eaters)

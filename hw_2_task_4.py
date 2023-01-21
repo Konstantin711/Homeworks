@@ -3,14 +3,15 @@
 # are all occupied by these guests. There is a group of guests in the
 # common room and there are still places in it. Display 2 groups of guests in code.
 
-vip_guests = ['Jenny Tyler', 'Sad One', 'Frank Sinatra']
+vip_guests = ('Jenny Tyler', 'Sad One', 'Frank Sinatra')
 common_guests = ['John doe', 'Frank Smith', 'Lucy Frank', 'Silvester Stalone', ' ', ' ', ' ', ' ', ' ']
 
-vip_guests.extend(common_guests)
+common_guests.extend(vip_guests)
+print(common_guests)
 
 qty = 0
 
-for i in vip_guests:
+for i in common_guests:
     if i == ' ':
         qty += 1
 
