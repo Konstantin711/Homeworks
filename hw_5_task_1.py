@@ -5,8 +5,8 @@
 string_to_mod = 'john peter brian Morgan Adam Maria bart'
 modified_list = []
 
-for letter in string_to_mod.split(' '):
-    modified_list.append(letter.capitalize())
+for word in string_to_mod.split(' '):
+    modified_list.append(word.capitalize())
 
 
 modified_string = ' '.join(modified_list)
