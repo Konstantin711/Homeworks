@@ -17,8 +17,8 @@ facebook = []
 amazon = []
 
 
-def list_to_tuple(array):
-    return tuple(array)
+def list_to_tuple(array_list):
+    return tuple(array_list)
 
 
 with open('index.html') as file:
