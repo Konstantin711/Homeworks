@@ -34,4 +34,4 @@ os.makedirs(path)
 
 with open(f'{path}test_data.txt', 'w') as file:
     for line in list_of_tuples:
-        file.writelines(f'{line} \n'.replace(',', ' '))
+        file.writelines(f'{line} \n'.replace(' ', '').replace(',', ' '))
