@@ -16,7 +16,7 @@ def min_and_max(numbers: list[int], two_max_value: int = None) -> tuple:
     min_value = numbers[0]
     max_value = numbers[0]
 
-    for index, value in enumerate(numbers):
+    for value in numbers:
         if value > max_value:
             max_value = value
         else:
