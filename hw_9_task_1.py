@@ -27,5 +27,6 @@ def multiplication(a: int, b: int) -> int:
     return a * b
 
 
-print(summation(55, 34))
-print(multiplication(5, 2))
+if __name__ == '__main__':
+    print(summation(55, 34))
+    print(multiplication(5, 2))
