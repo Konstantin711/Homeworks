@@ -22,7 +22,7 @@ def list_to_tuple(array_list):
     return tuple(array_list)
 
 
-with open('index.html') as file:
+with open('../index.html') as file:
     file_ro_read = file.read()
 
     counter = 1
