@@ -139,7 +139,7 @@ if __name__ == '__main__':
     google.qty_of_employers = 50000
     print(google.qty_of_employers)
 
-    google.date_of_foundation = '15.11.1999'
+    google.date_of_foundation = '15.11.1998'
     print(google.date_of_foundation)
 
     google.website = 'www.google.com'
