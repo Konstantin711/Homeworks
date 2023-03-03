@@ -28,3 +28,6 @@ class Car(ABC):
 
     @abstractmethod
     def get_car_mileage(self): ...
+
+    @abstractmethod
+    def find_fuel_station(self): ...
