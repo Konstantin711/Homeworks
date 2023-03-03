@@ -3,7 +3,7 @@ from mammals import Mammals
 
 class Primates(Mammals):
     def __init__(self, family: str, sub_class: str, living_area: str, hunting_area: str, food_type: str,
-                 qty_of_population: str):
+                 qty_of_population: int):
         super().__init__(family, sub_class, living_area, hunting_area, food_type,
                          qty_of_population)
 

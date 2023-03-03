@@ -12,7 +12,7 @@ from abc import ABC, abstractmethod
 
 class Animals(ABC):
     def __init__(self, family: str, sub_class: str, living_area: str, food_type: str, hunting_area: str,
-                 qty_of_population: str):
+                 qty_of_population: int):
         self.family = family
         self.sub_class = sub_class
         self.living_area = living_area

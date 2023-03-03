@@ -3,7 +3,7 @@ from cetaceans import Cetaceans
 
 class Dolphins(Cetaceans):
     def __init__(self, family: str, sub_class: str, living_area: str, hunting_area: str, food_type: str,
-                 qty_of_population: str, dolphin_name: str, color: str, weight: str, age: str, sex: str):
+                 qty_of_population: int, dolphin_name: str, color: str, weight: float, age: int, sex: str):
         super().__init__(family, sub_class, living_area, hunting_area, food_type,
                          qty_of_population)
 
@@ -40,11 +40,11 @@ if __name__ == '__main__':
                        living_area='black sea',
                        hunting_area='water',
                        food_type='fish',
-                       qty_of_population='1000',
+                       qty_of_population=1000,
                        dolphin_name='John',
                        color='grey',
-                       weight='50',
-                       age='3',
+                       weight=50.5,
+                       age=3,
                        sex='male')
 
     print(dolphin.dolphin_name)
@@ -55,4 +55,3 @@ if __name__ == '__main__':
     print(dolphin.age)
     print(dolphin.sex)
     print(dolphin.get_food())
-

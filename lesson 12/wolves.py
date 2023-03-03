@@ -3,7 +3,7 @@ from predators import Predators
 
 class Wolves(Predators):
     def __init__(self, family: str, sub_class: str, living_area: str, hunting_area: str, food_type: str,
-                 qty_of_population: str, wolf_name: str, color: str, weight: str, age: str, sex: str):
+                 qty_of_population: int, wolf_name: str, color: str, weight: float, age: int, sex: str):
         super().__init__(family, sub_class, living_area, hunting_area, food_type,
                          qty_of_population)
 
@@ -40,11 +40,11 @@ if __name__ == '__main__':
                   living_area='black wood',
                   hunting_area='wood',
                   food_type='meat',
-                  qty_of_population='1000',
+                  qty_of_population=1000,
                   wolf_name='Silvester',
                   color='grey',
-                  weight='20',
-                  age='2',
+                  weight=20.6,
+                  age=2,
                   sex='male')
 
     print(wolf.wolf_name)
